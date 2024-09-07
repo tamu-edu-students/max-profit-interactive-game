@@ -52,8 +52,8 @@ nav {
 }
 
 .product img {
-  width: 8vw;
-  height: 8vw;
+  width: 6vw;
+  height: 6vw;
   object-fit: cover;
   margin-right: 1vw;
 }

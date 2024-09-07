@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./style.css";
+import tableImage from "./assets/table2.png";
+import chairImage from "./assets/chair.png";
 
 function App() {
   const [rectangles, setRectangles] = useState(0);
@@ -166,7 +168,7 @@ function App() {
                 <button onClick={removeChair}>-</button>
               </div>
             </div>
-            <img src="src/assets/chair.png" alt="Chair" />
+            <img src={chairImage} alt="Chair" />
           </div>
 
           <div className="product">
@@ -180,7 +182,7 @@ function App() {
                 <button onClick={removeTable}>-</button>
               </div>
             </div>
-            <img src="src/assets/table2.png" alt="table" />
+            <img src={tableImage} alt="table" />
           </div>
         </div>
       </div>
