@@ -109,7 +109,7 @@ function App() {
         <div className="inventory-section">
           <h2>Inventory</h2>
           <div className="block">
-            <span>Rectangle Blocks:</span>
+            <span>Rectangular Boards:</span>
             <input
               id="rectangular-blocks"
               onChange={(e) => updateRectangles(e.target.value)}
@@ -117,7 +117,7 @@ function App() {
             />
           </div>
           <div className="block">
-            <span>Circular Blocks:</span>
+            <span>Circular Boards:</span>
             <input
               id="circular-blocks"
               value={circles}
@@ -125,7 +125,7 @@ function App() {
             />
           </div>
           <div className="block">
-            <span>Columnar Blocks:</span>
+            <span>Long Dowels:</span>
             <input
               id="columnar-blocks"
               onChange={(e) => {
@@ -160,7 +160,7 @@ function App() {
           <div className="product">
             <div className="product-content">
               <h3>Chair</h3>
-              <p>Requires: 4 Columnar Blocks, 2 Rectangle Blocks</p>
+              <p>Requires: 4 Long Dowels (legs), 2 Rectangular Boards</p>
               <p>Chairs built : {chairs}</p>
 
               <div className="button-group">
@@ -168,13 +168,15 @@ function App() {
                 <button onClick={removeChair}>-</button>
               </div>
             </div>
+            {/*
             <img src={chairImage} alt="Chair" />
+            */}
           </div>
 
           <div className="product">
             <div className="product-content">
               <h3>Table</h3>
-              <p>Requires: 3 Columnar Rectangle Blocks, 1 Circular Block</p>
+              <p>Requires: 3 Long Dowels (legs), 1 Circular Boards</p>
               <p>Tables built : {tables}</p>
 
               <div className="button-group">
@@ -182,7 +184,7 @@ function App() {
                 <button onClick={removeTable}>-</button>
               </div>
             </div>
-            <img src={tableImage} alt="table" />
+            {/* <img src={tableImage} alt="table" /> */}
           </div>
         </div>
       </div>
