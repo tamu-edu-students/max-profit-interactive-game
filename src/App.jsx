@@ -176,7 +176,7 @@ function App() {
           <div className="product">
             <div className="product-content">
               <h3>Table</h3>
-              <p>Requires: 3 Long Dowels (legs), 1 Circular Boards</p>
+              <p>Requires: 3 Long Dowels (legs), 1 Circular Board</p>
               <p>Tables built : {tables}</p>
 
               <div className="button-group">
