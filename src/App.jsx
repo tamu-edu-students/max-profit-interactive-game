@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.css";
-import tableImage from "./assets/table2.png";
-import chairImage from "./assets/chair3.png";
+//import tableImage from "./assets/table2.png";
+//import chairImage from "./assets/chair3.png";
 
 function App() {
   const [rectangles, setRectangles] = useState(0);
