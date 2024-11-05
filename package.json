@@ -1,8 +1,8 @@
 {
-  "name": "max-profit-interactive",
+  "name": "max-profit-interactive-game",
   "private": false,
   "version": "0.0.0",
-  "homepage": "https://suryadanny.github.io/max-profit-interactive",
+  "homepage": "https://tamu-edu-students.github.io/max-profit-interactive-game",
   "type": "module",
   "scripts": {
     "dev": "vite",
